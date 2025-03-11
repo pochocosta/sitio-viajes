@@ -3,163 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patagonia Dreams - Excursiones y Traslados</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color: #0056b3;
-            color: white;
-        }
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .hero {
-            background: url('https://source.unsplash.com/1600x900/?patagonia,travel') no-repeat center center/cover;
-            height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        .hero h1, .hero p {
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-        .hero input {
-            width: 80%;
-            max-width: 400px;
-            padding: 10px;
-            border-radius: 5px;
-            border: none;
-            margin-top: 15px;
-        }
-        .section {
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .tour-card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-            margin: 20px;
-            display: inline-block;
-            max-width: 300px;
-        }
-        .tour-card h3 {
-            color: #0056b3;
-        }
-        .tour-card button {
-            background: #0056b3;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .destino {
-            display: inline-block;
-            margin: 20px;
-            padding: 20px;
-            background: #0056b3;
-            color: white;
-            border-radius: 10px;
-            min-width: 200px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-    </style>
+    <title>Patagonia Dreams - Viajes Inolvidables</title>
 </head>
-<body>
-    <header>
-        <div class="logo">Patagonia Dreams</div>
-        <nav>
-            <ul>
-                <li><a href="#actividades">Actividades</a></li>
-                <li><a href="#nosotros">Sobre nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="lang-currency">
-            <span>es | ARS</span>
-        </div>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;">
+    <header style="background-color: #005f73; color: white; padding: 20px; text-align: center; font-size: 24px;">
+        <h1>Patagonia Dreams: El Calafate, Ushuaia y Cataratas del Iguazú</h1>
     </header>
     
-    <section class="hero">
-        <h1>Excursiones y traslados por toda Argentina</h1>
-        <p>¡3 Cuotas sin interés si superas $500.000!</p>
-        <input type="text" placeholder="Busca por título o ubicación">
+    <nav style="background-color: #0a9396; padding: 10px; text-align: center;">
+        <a href="#calafate" style="color: white; text-decoration: none; margin: 0 15px;">El Calafate</a>
+        <a href="#ushuaia" style="color: white; text-decoration: none; margin: 0 15px;">Ushuaia</a>
+        <a href="#iguazu" style="color: white; text-decoration: none; margin: 0 15px;">Cataratas del Iguazú</a>
+    </nav>
+    
+    <section id="calafate" style="padding: 20px; background-color: white; margin: 20px; border-radius: 8px;">
+        <h2 style="color: #005f73;">El Calafate - Glaciares y Naturaleza</h2>
+        <p>Explora el Parque Nacional Los Glaciares y maravíllate con el imponente Glaciar Perito Moreno.</p>
+        <h3>Paquetes Disponibles:</h3>
+        <ul>
+            <li><strong>3 días / 2 noches</strong> - USD 400 - Incluye hotel, traslados y excursión al Glaciar Perito Moreno.</li>
+            <li><strong>5 días / 4 noches</strong> - USD 700 - Incluye hotel, traslados, navegación entre glaciares y city tour.</li>
+        </ul>
     </section>
     
-    <section id="imperdibles" class="section">
-        <h2>Imperdibles</h2>
-        <div class="tour-card">
-            <h3>Visita al Glaciar Perito Moreno</h3>
-            <p>El Calafate - 08:00 horas</p>
-            <p><strong>Desde: ARS 71.250</strong> por adulto</p>
-            <button>Reservar</button>
-        </div>
-        <div class="tour-card">
-            <h3>Excursión a Cataratas del Iguazú</h3>
-            <p>Puerto Iguazú - 08:00 horas</p>
-            <p><strong>Desde: ARS 30.400</strong> por adulto</p>
-            <button>Reservar</button>
-        </div>
+    <section id="ushuaia" style="padding: 20px; background-color: white; margin: 20px; border-radius: 8px;">
+        <h2 style="color: #005f73;">Ushuaia - El Fin del Mundo</h2>
+        <p>Descubre la ciudad más austral del mundo, con paisajes únicos, nieve y vida salvaje.</p>
+        <h3>Paquetes Disponibles:</h3>
+        <ul>
+            <li><strong>4 días / 3 noches</strong> - USD 600 - Incluye hotel, traslados, Parque Nacional Tierra del Fuego y Tren del Fin del Mundo.</li>
+            <li><strong>6 días / 5 noches</strong> - USD 900 - Incluye hotel, traslados, navegación por el Canal Beagle y excursión a los lagos Escondido y Fagnano.</li>
+        </ul>
     </section>
     
-    <section id="destinos" class="section">
-        <h2>Descubrí tu próximo destino</h2>
-        <div class="destino">
-            <h3>El Calafate</h3>
-            <p>33 actividades</p>
-        </div>
-        <div class="destino">
-            <h3>Puerto Iguazú</h3>
-            <p>7 actividades</p>
-        </div>
-        <div class="destino">
-            <h3>Ushuaia</h3>
-            <p>17 actividades</p>
-        </div>
+    <section id="iguazu" style="padding: 20px; background-color: white; margin: 20px; border-radius: 8px;">
+        <h2 style="color: #005f73;">Cataratas del Iguazú - Maravilla Natural</h2>
+        <p>Visita una de las siete maravillas naturales del mundo y disfruta de su imponente belleza.</p>
+        <h3>Paquetes Disponibles:</h3>
+        <ul>
+            <li><strong>3 días / 2 noches</strong> - USD 350 - Incluye hotel, traslados y visita a las Cataratas lado argentino.</li>
+            <li><strong>5 días / 4 noches</strong> - USD 650 - Incluye hotel, traslados, visitas a ambos lados de las Cataratas y paseo en lancha.</li>
+        </ul>
     </section>
     
-    <footer>
-        <p>Viviendo y amando la Patagonia, tu viaje en nuestras manos.</p>
-        <p>Av. del Libertador 1341, Local 2, El Calafate, Santa Cruz</p>
-        <p>Todos los días, 10:00 a 20:00 hs.</p>
-        <p>Contacto: reservas@patagoniadreams.com.ar | +54 9 2966 61 2064</p>
+    <section id="empresa" style="padding: 20px; background-color: white; margin: 20px; border-radius: 8px;">
+        <h2 style="color: #005f73;">Sobre Patagonia Dreams</h2>
+        <p>Somos una agencia especializada en ofrecer experiencias de viaje inolvidables en los destinos más impactantes de Argentina. Con años de experiencia en el sector, brindamos paquetes turísticos diseñados a medida para garantizar una experiencia única y sin preocupaciones.</p>
+        <p>Nuestros servicios incluyen traslados, alojamiento en los mejores hoteles, excursiones guiadas con expertos y atención personalizada para asegurar que cada viaje sea una aventura inolvidable.</p>
+        <p>En Patagonia Dreams, nuestro compromiso es hacer que cada viajero descubra la magia de la Patagonia, Ushuaia y las Cataratas del Iguazú con la comodidad y seguridad que se merece.</p>
+    </section>
+    
+    <footer style="background-color: #0a9396; color: white; text-align: center; padding: 15px; margin-top: 20px;">
+        <p>Contacto: info@patagoniadreams.com | Tel: +54 9 11 1234 5678</p>
     </footer>
 </body>
 </html>
